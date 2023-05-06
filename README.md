@@ -1,1 +1,1 @@
-# Django_Turor
+# Django_Tutor

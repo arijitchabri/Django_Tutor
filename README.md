@@ -64,7 +64,7 @@ Let's create a basic django project named "django_tutor", and an app called exam
 - [Problem 3: Django Model Not Saving Data to Database](./solutions/model-not-saving-data.md)
 - [Problem 4: Django Static Files Setup](./solutions/static-files-setup.md)
 - [Problem 5: Removing all data and tables](./solutions/removing-all-data-and-tables.md)
-- [Problem 6: Storing the existing Django project data in json and restoring it](./solutions/data-save-and-restore-using-json.md)
+- [Problem 6: Data-backup-and-restore](solutions/data-backup-and-restore.md)
 
 ## Contributing
 

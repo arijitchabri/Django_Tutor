@@ -6,6 +6,12 @@ documented in a separate `.md` file.
 The purpose of this project is to serve as a reference for me
 and other developers who may be experiencing similar issues.
 
+
+
+**_This is not any kind of tutorial or work through.
+It's basically solves some issues which includes some boiler code and settings._**
+
+
 ## Basic Django project and app creation and running
 
 Let's create a basic django project named "django_tutor", and an app called example_app

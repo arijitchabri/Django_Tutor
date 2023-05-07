@@ -11,8 +11,17 @@ and other developers who may be experiencing similar issues.
 **_This is not any kind of tutorial or work through.
 It's basically solves some issues which includes some boiler code and settings._**
 
+## Table of Contents
 
-## Basic Django project and app creation and running
+- [Problem 1: Django CSRF Verification Failed](./solutions/csrf-verification-failed.md)
+- [Problem 2: Django Admin Site Not Showing Changes](./solutions/admin-site-not-showing-changes.md)
+- [Problem 3: Django Model Not Saving Data to Database](./solutions/model-not-saving-data.md)
+- [Problem 4: Django Static Files Setup](./solutions/static-files-setup.md)
+- [Problem 5: Removing all data and tables](./solutions/removing-all-data-and-tables.md)
+- [Problem 6: Data-backup-and-restore](solutions/data-backup-and-restore.md)
+
+
+## Creation and running of a basic Django project
 
 Let's create a basic django project named "django_tutor", and an app called example_app
 
@@ -42,16 +51,21 @@ Let's create a basic django project named "django_tutor", and an app called exam
         ``` 
         .\env\Scripts\activate
         ```
-   
+      
 4. Download required packages in the environment
     - django
     - pillow (for handling image files) etc.
+
 
 5. Create the Django project and the app
     ```
     django-admin startproject djnago_tutor .
     django-admin startapp example_app
     ```
+   **The dot at the last denotes that the django project 
+   will not create any other directory. 
+   And it will use the current directory for project creation.**
+   
 
 6. Start the project 
     ``` 
@@ -62,15 +76,7 @@ Let's create a basic django project named "django_tutor", and an app called exam
       If successful you will see an output of :
    
       ![Django Landing Page](images/django-landing-page.png?raw=true "Django Landing Page")
-      
-## Table of Contents
 
-- [Problem 1: Django CSRF Verification Failed](./solutions/csrf-verification-failed.md)
-- [Problem 2: Django Admin Site Not Showing Changes](./solutions/admin-site-not-showing-changes.md)
-- [Problem 3: Django Model Not Saving Data to Database](./solutions/model-not-saving-data.md)
-- [Problem 4: Django Static Files Setup](./solutions/static-files-setup.md)
-- [Problem 5: Removing all data and tables](./solutions/removing-all-data-and-tables.md)
-- [Problem 6: Data-backup-and-restore](solutions/data-backup-and-restore.md)
 
 ## Contributing
 

@@ -16,6 +16,14 @@ To backup your data, follow these steps:
    ```
 
    This will create a new file called `backup.json` that contains all the data in your project.
+   
+   - For creating a backup specific to the model then use this :
+   ```
+   python manage.py dumpdata your_app_name.Model_name > Model_name.json
+   ```
+   Example : python manage.py dumpdata movies.Movie > Movie_Backup.json
+   
+   **Here movie is the app name and Movie is the model name.**
 
 3. Move the `backup.json` file to a safe location, such as an external hard drive or cloud storage.
 
